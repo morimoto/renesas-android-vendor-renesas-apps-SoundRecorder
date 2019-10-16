@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RCarSoundRecorder</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="audio_formats">
+        <item>ogg</item>
+        <item>mp4</item>
+        <item>aac</item>
+        <item>3gp</item>
+        <item>amr</item>
+    </string-array>
+
+    <string name="recording_filename_part" >recording</string>
+    <string name="data_filename_part">data</string>
+    <string name="error_no_items" >No items found</string>
+    <string name="no_permissions">No permission</string>
+    <string name="audio_format">Audio format:</string>
+</resources>

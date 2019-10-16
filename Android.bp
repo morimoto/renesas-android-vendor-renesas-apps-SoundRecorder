@@ -1,0 +1,19 @@
+android_app {
+    name: "RCarSoundRecorder",
+
+    resource_dirs: ["res"],
+
+    sdk_version: "current",
+    product_specific: true,
+    overrides: ["SoundRecorder"],
+
+    srcs: ["src/**/*.java"],
+
+    static_libs: [
+        "android-support-design",
+        "android-support-v4",
+        "android-support-v7-appcompat",
+        "android-support-constraint-layout",
+    ],
+
+}
